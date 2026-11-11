@@ -4,13 +4,11 @@ Sistema interno da Karisma Uniformes, em Novo Horizonte/SP, para lançar pedido,
 
 A página inicial é a vitrine da loja. O acesso da equipe fica em `/login`.
 
-## Como rodar
+O site já está publicado na Vercel, com o banco no Neon.
+
+## Como rodar localmente
 
 ```bash
 npm install
 npm run dev
 ```
-
-## Publicar
-
-O site sobe na Vercel (preset TanStack Start). O banco é Postgres. Na Vercel, crie a variável `DATABASE_URL` com a connection string do Neon.
